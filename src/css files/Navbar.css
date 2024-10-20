@@ -1,0 +1,57 @@
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:normal;
+    background-color: rgba(255, 255, 255, 0.01);
+    color: rgb(255, 255, 255);         
+    padding: 2rem;
+    z-index: 10;
+  }
+  
+  .navbar-left .logo_1 {
+    font-family:'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0dff00;
+    text-decoration: none;
+  }
+  .navbar-left .logo_2 {
+    font-family:'Montserrat';
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar-center .nav-links {
+    font-family:'Montserrat';
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-center .nav-links li {
+    margin-right:5rem;
+  }
+  
+  .navbar-center .nav-links a {
+    color: #fff;
+    text-decoration:none;
+  }
+  .navbar-right {
+    display: flex;
+    align-items: center; /* Align icon vertically */
+  }
+
+.navbar-right .user-icon {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0.001rem;
+    font-size: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+  

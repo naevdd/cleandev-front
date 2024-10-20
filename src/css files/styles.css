@@ -1,0 +1,75 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding and borders don't affect the element's size */
+  }
+  
+  /* Ensure body and html have no margin and full height */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background: url("../assets/bg1.png") no-repeat center center fixed;
+    background-size: cover;
+    }
+
+.title-container1 {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Ensure the text is centered */
+  margin-bottom: 20px;
+}
+
+.Title1, .Title2 {
+
+    color: #ffffff;
+}
+
+.Title1 {
+    font-size: 3.5rem;
+    color: #ffffff;
+    margin-top: 10vh;
+    margin-bottom: 0;
+}
+
+.Title2 {
+    font-size: 3.5rem;
+    margin-top: 0;
+    color: #20ff24;
+}
+
+.title-container2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sub1 {
+    font-size:1.3rem;
+    color:#ffffff
+}
+
+.sub2 {
+    font-size:1.3rem;
+    color:#ffffff;
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  align-items: center;     /* Align buttons vertically */
+  gap: 80px;               /* Add some space between buttons */
+  margin-top: 40px;        /* Add some space between the buttons and other content */
+}
+
+/* Optional: Ensure buttons are responsive on smaller screens */
+@media (max-width: 600px) {
+  .button-container {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    gap: 10px; /* Reduce gap for small screens */
+  }
+}
