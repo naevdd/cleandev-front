@@ -1,0 +1,43 @@
+.Image-upload-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the button and the file name */
+  }
+  .Imageupload-button {
+    width: 190px;    /* Set a fixed width */
+    height: 50px;    /* Set a fixed height */
+    opacity: 0.9;
+    border:none;
+    border-radius:30px; /* Rounded corners */
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    cursor:pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    pointer-events: auto; /* Ensure pointer events are enabled */
+    z-index: 1; /* Make sure it's on top of other elements */
+  }
+  
+  /* Hover effect */
+  .Imageupload-button:hover {
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    opacity:1;
+  }
+  
+  /* Active state for button click */
+  .Imageupload-button:active {
+    transform: scale(0.98); /* Slight press-down effect */
+    opacity:0.8;
+
+  }
+
+  .file-name-display {
+    color:#ffffff;
+    font-size:1.4rem;
+    font-weight: lighter;
+    margin-left: 20px;
+  }

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css files/styles.css';
 import StylizedButton from '../components/StylizedButton';
+import ImageUploadButton from '../components/ImageButton';
 const AlertPage = () => {
 
   return (
@@ -9,8 +10,7 @@ const AlertPage = () => {
       <h1><i className="fa-solid fa-circle-exclamation"></i> &nbsp; ALERT! Raise a Red Flag &nbsp; <i className="fa-solid fa-circle-exclamation"></i></h1>
     </div>
     <div className= "Upload-button">
-      <StylizedButton iconHtml= '<i class="fa-solid fa-upload"></i>' text="UPLOAD" gradient="linear-gradient(135deg, #38dc07, #0a8f27)"/>
-      <h6 className='Description'>Image Address</h6>
+      <ImageUploadButton iconHtml= '<i class="fa-solid fa-upload"></i>' text="UPLOAD" gradient="linear-gradient(135deg, #38dc07, #0a8f27)"/>
     </div>
     <div className= "Location-button">
       <StylizedButton iconHtml= '<i class="fa-solid fa-location-dot"></i>' text="LOCATION" gradient="linear-gradient(135deg, #38dc07, #0a8f27)"/>

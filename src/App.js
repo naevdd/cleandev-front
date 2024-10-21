@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Import Routes instead of Switch
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import AlertPage from './pages/AlertPage';
@@ -11,8 +11,8 @@ const App = () => {
   return (
     <Router>
       <Navbar/>
-      <Routes> {/* Use Routes instead of Switch */}
-        <Route path="/" element={<HomePage />} /> {/* Use element prop instead of component */}
+      <Routes>
+        <Route path="/" element={<HomePage />} /> 
         <Route path="/about" element={<AboutPage />} />
         <Route path="/alert" element={<AlertPage />} />
         <Route path="/discuss" element={<DiscussPage />} />
