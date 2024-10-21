@@ -73,3 +73,62 @@
     gap: 10px; /* Reduce gap for small screens */
   }
 }
+
+.Alert-title {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size:1.3rem;
+  margin-top:1vh;
+  color:#ffffff;
+}
+
+.Alert-title .fa-solid {
+  color:red;
+}
+
+.Upload-button {
+  display: flex;
+  align-items:center;
+  margin-left:55vh;
+  margin-top:50px;
+}
+.Upload-button .Description {
+  color:#ffffff;
+  font-size:1.4rem;
+  font-weight: lighter;
+  margin-left: 25px;
+}
+.Location-button {
+  display: flex;
+  align-items:center;
+  margin-left:55vh;
+  margin-top:20px;
+}
+.Location-button .Description {
+  color:#ffffff;
+  font-size:1.4rem;
+  font-weight: lighter;
+  margin-left: 25px;
+}
+.Phone-button {
+  display: flex;
+  align-items:center;
+  margin-left:55vh;
+  margin-top:20px;
+}
+.Phone-button .Description {
+  color:#ffffff;
+  font-size:1.4rem;
+  font-weight: lighter;
+  margin-left: 25px;
+}
+
+.Send-button {
+  display: flex;
+  align-items:center;
+  margin-left:55vh;
+  margin-top:30vh;
+}

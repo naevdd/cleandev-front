@@ -4,11 +4,13 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import AlertPage from './pages/AlertPage';
 import DiscussPage from './pages/DiscussPage';
+import Navbar from './components/Navbar';
 import './css files/styles.css'
 
 const App = () => {
   return (
     <Router>
+      <Navbar/>
       <Routes> {/* Use Routes instead of Switch */}
         <Route path="/" element={<HomePage />} /> {/* Use element prop instead of component */}
         <Route path="/about" element={<AboutPage />} />

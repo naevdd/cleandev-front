@@ -1,13 +1,11 @@
 import React from 'react';
 import '../css files/styles.css';
 import StylizedButton from '../components/StylizedButton'; // Ensure correct path
-import Navbar from '../components/Navbar';
 
 const HomePage = () => {
   
   return (
     <>
-    <Navbar/>
       <div className="title-container1">
         <h1 className="Title1">Building a Community <br /> that takes time to <br /> Solve and Discuss</h1>
         <h1 className="Title2">Sustainability</h1>
