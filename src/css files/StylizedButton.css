@@ -6,8 +6,6 @@
     opacity: 0.9;
     border:none;
     border-radius:30px; /* Rounded corners */
-    color: white;
-    padding: 15px 30px;
     font-weight: bold;
     font-family: 'Montserrat';
     font-size: 1.2rem;
@@ -29,6 +27,14 @@
   .stylized-button:active {
     transform: scale(0.98); /* Slight press-down effect */
     opacity:0.8;
-
   }
-  
+
+.button-one{
+  color:white;
+  background-image: linear-gradient(135deg, #38dc07, #0a8f27);
+}
+
+.button-two{
+  color:white;
+  background-image: linear-gradient(135deg, #007BFF, #003399);
+}

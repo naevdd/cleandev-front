@@ -1,10 +1,15 @@
 import React from 'react';
-import {  } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../css files/Navbar.css';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const signOut = () => {
+    localStorage.removeItem("_id");
+    //👇🏻 redirects to the login page
+    navigate("/");
+};
   return (
-
 <nav className="navbar">
   <div className="navbar-left">
     <a href="/" className="logo_1">
@@ -30,6 +35,9 @@ const Navbar = () => {
         <a href="/login" className='user-icon'>SignIn/Login &nbsp;
         <i className="fa-solid fa-user"></i>
         </a>
+      </li>
+      <li>
+        <button onClick={signOut}>Sign Out</button>
       </li>
   </div>
     </ul>

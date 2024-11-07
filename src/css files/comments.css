@@ -1,0 +1,105 @@
+.comment__container {
+    max-width: 600px;
+    margin: 1em auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid #ddd;
+  }
+  
+  .comment__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .comment__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .comment__info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comment__username {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .comment__timestamp {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  .comment__text {
+    font-size: 1em;
+    color: #333;
+    margin: 8px 0;
+  }
+  
+  .comment__actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .comment__reply {
+    font-size: 0.9em;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .comment__reply:hover {
+    text-decoration: underline;
+  }
+  
+  .likes__container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .likesBtn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .comment__replies {
+    margin-left: 30px; /* Indent replies */
+    border-left: 2px solid #ddd;
+    padding-left: 15px;
+  }
+  
+  .reply__form {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .reply__input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .reply__button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reply__button:hover {
+    background-color: #0056b3;
+  }

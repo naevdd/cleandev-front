@@ -1,9 +1,9 @@
 import React from 'react';
 import '../css files/styles.css';
-import StylizedButton from '../components/StylizedButton'; // Ensure correct path
+import '../components/StylizedButton'; // Ensure correct path
+import {Link} from 'react-router-dom';
 
 const HomePage = () => {
-  
   return (
     <>
       <div className="title-container1">
@@ -16,8 +16,8 @@ const HomePage = () => {
         <h3 className="sub2">Share and discuss ideas and innovation in the world of sustainability and engineering</h3>
       </div>
     <div className="button-container">
-    <StylizedButton text="A L E R T" destination="/alert" gradient="linear-gradient(135deg, #38dc07, #0a8f27)" />
-    <StylizedButton text="D I S C U S S" destination="/discuss" gradient="linear-gradient(135deg, #007BFF, #003399)" />
+    <Link to='/alert'><button action="/alert" className='button-one stylized-button'>A L E R T</button></Link>
+    <Link to='/discuss'><button action="/discuss" className="button-two stylized-button">D I S C U S S</button></Link>
     </div>
   </>
   );
